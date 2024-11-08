@@ -1,14 +1,14 @@
 <?php
 
-/*
-Plugin Name: "Dove mi trovo?" shortcodes
-Description: Aggiunge i campi opzione personalizzati "dove mi trovo", "Aggiornato al" e "Distanza da casa" usabili con shortcode
-Version: 0.2
-Author: Giacomo Lanzi
-Plugin URI: https://github.com/giacomolanzi/planbproject-dove-mi-trovo
-GitHub Plugin URI: giacomolanzi/planbproject-dove-mi-trovo
-GitHub Branch: main
-*/
+/**
+ * Plugin Name: "Dove mi trovo?" shortcodes
+ * Description: Aggiunge i campi opzione personalizzati "dove mi trovo", "Aggiornato al" e "Distanza da casa" usabili con shortcode
+ * Version: 0.2
+ * Author: Giacomo Lanzi
+ * Plugin URI: https://github.com/giacomolanzi/planbproject-dove-mi-trovo
+ * GitHub Plugin URI: giacomolanzi/planbproject-dove-mi-trovo
+ * GitHub Branch: main
+ */
 
 // Registra i nuovi endpoint
 add_action('rest_api_init', function () {
